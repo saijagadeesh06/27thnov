@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        background-color: black;
+        text-align: center;
+      }
+      .h1 {
+        color: plum;
+        border: 2px solid;
+        box-shadow: 1px 1px 10px 0px;
+        padding: 20px;
+      }
+      img {
+        height: 200px;
+        width: 250px;
+        border-radius: 10px;
+      }
+      @media screen and (orientation: landscape) {
+        .div1 {
+          border: 5px solid blue;
+          padding: 25px;
+          background-color: pink;
+        }
+      }
+      @media screen and (orientation: portrait) {
+        .div1 {
+          border: 5px solid khaki;
+          padding: 25px;
+          background-color: lawngreen;
+        }
+      }
+      .div1 {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      @media screen and (min-width: 0px) and (max-width: 475px) {
+        .div1 {
+          display: flex;
+          justify-content: center;
+        }
+      }
+      .div1 div {
+        border: 1px solid red;
+        background-color: azure;
+        text-align: center;
+      }
+      .d1:hover {
+        border: 3px solid black;
+        border-radius: 10px;
+      }
+      .d2:hover {
+        border: 3px solid black;
+        border-radius: 10px;
+      }
+      .d3:hover {
+        border: 3px solid black;
+        border-radius: 10px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h1 class="h1">MEDIA QUERIES IN CSS</h1>
+    <div class="div1">
+      <div>
+        <div class="d1">
+          <img
+            class="msd"
+            src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQA4-fxXm-gUeqcc3idXuKp4DW4Rj98m7AmiKZiRB7VCGn_73Vcn1qfe5ZoH0TPC3lmuIbBS48_McJH6S5qzQ_s0w"
+          />
+        </div>
+        <div style="height: 80px; overflow-y: scroll; background-color: white">
+          <p>
+            Dhoniiiii finishes off in style. A magnificent strike into the
+            crowd. India lift the World Cup after 28 years. The party's started
+            in the dressing room. And its an Indian captain, whos been
+            absolutely magnificent, in the night of the final.With a mature head
+            on his shoulders and an astute and shrewd cricketing mind, Dhoni was
+            recommended by senior players like Sachin Tendulkar and Rahul Dravid
+            for captaincy after Rahul Dravid stepped down as skipper.
+          </p>
+        </div>
+        <div><p>MS DHONI</p></div>
+      </div>
+      <div>
+        <div class="d2">
+          <img
+            class="vk"
+            src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRbbt1OigM2Wkgslq7CVD-TfZ8WSosR7w4_rBeNdkJpVEEz4Sih0nlFysgu4l1bkvNYsO5QU_Nyr0Zh1-45V1tnwA"
+          />
+        </div>
+        <div style="height: 80px; overflow-y: scroll; background-color: white">
+          <p>
+            India has given to the world many a great cricketer but perhaps none
+            as ambitious as Virat Kohli. To meet his ambition, Kohli employed
+            the technical assiduousness of Sachin Tendulkar and fitness that was
+            in the league of top athletes in the world, not just cricketers. As
+            a result, Kohli became the most consistent all-format accumulator of
+            his time, making jaw-dropping chases look easy, and finding, in his
+            own words, the safest possible way to score runs. Plenty of them.
+          </p>
+        </div>
+        <div><p>VIRAT KOHLI</p></div>
+      </div>
+
+      <div>
+        <div>
+          <div class="d3">
+            <img
+              class="raina"
+              src="https://pbs.twimg.com/profile_images/1465206230121521157/aN6JnuRL_400x400.jpg"
+            />
+          </div>
+
+          <div
+            style="height: 80px; overflow-y: scroll; background-color: white"
+          >
+            <p>
+              Arguably among India's finest T20 batsmen, Suresh Raina stormed
+              into the international scene as a teenage prodigy during the Greg
+              Chappell regime. Typical left-hander's elegance, power game and a
+              fine temperament were the hallmark of Raina the batsman and he
+              exhibited it beautifully during his ODI debut in 2005. After a
+              stupendous start though, his form dipped over the next year and
+              that was followed by a serious injury which meant that the career
+              had hit a roadblock towards the latter part of 2007. The talent
+              was obvious but Raina needed to translate that on the field as
+              well. That's when the IPL Caravan debuted in 2008.
+            </p>
+          </div>
+          <div><p>SURESH RAINA</p></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
